@@ -1,23 +1,25 @@
-# 🧠 Inference Engineer Journey
+# Inference Engineering Journey
 
-This repo documents my 2025–2027 learning journey toward becoming a Software Engineer, Inference (AI Infra).
+A hands-on learning journey to become a Model Inference / AI Infrastructure Engineer by 2027.
 
-## 📅 Timeline
+## Timeline
 
 - **Start**: August 1, 2025
 - **Goal**: Senior Inference Engineer by mid-2027
 
-## 🔭 Weekly Progress
+## Weekly Progress
 
 - 👉🏻 [Week 1: ML Intro + Setup](notes/week1-ml-intro.md)
-- ⏳ Week 2: Vectors & Tensors
-- ⏳ Week 3: Matrix operations
 ...
 
-## 📓 Notebooks
+## Notebooks
 
 See [notebooks/](notebooks/) for `fastbook` and custom experiment runs.
 
-## 🔧 Setup
+## Setup
 
 To reproduce my environment, see [setup/environment.md](setup/environment.md)
+
+---
+
+(C) 2025–2027 [Andrey Krisanov]. All rights reserved.

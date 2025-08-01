@@ -77,7 +77,7 @@ jupyter lab
 
 ---
 
-## 📁 Project Structure (relevant paths)
+## Project Structure (relevant paths)
 
 - `notebooks/`: Jupyter notebooks, including fastbook
 - `notes/`: Markdown notes with learnings and theory
@@ -85,7 +85,7 @@ jupyter lab
 
 ---
 
-## 📌 Notes
+## Notes
 
 - VS Code will detect the `.venv` automatically if you open the folder
 - You can pin dependencies later using:
@@ -93,5 +93,7 @@ jupyter lab
 ```bash
 uv pip freeze > requirements.txt
 ```
+
+---
 
 Happy learning!
