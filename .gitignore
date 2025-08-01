@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+*.env
+.env.*
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# macOS Trash
+.Trashes
+*.swp
+
+# macOS folder attributes
+.Spotlight-V100
+.fseventsd
+
+# Python virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Pip cache
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.cache/
+
+# Logs
+*.log
+
+# IPython profile
+profile_default/
+
+# Jupyter Notebook hidden outputs
+*.nbconvert.ipynb
