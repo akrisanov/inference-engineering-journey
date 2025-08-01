@@ -22,6 +22,7 @@ A curated list of tools and extensions I use in this project.
 | `cmake`        | Needed for building C++ packages         | `brew install cmake`                 |
 | `pkg-config`   | Config for native builds                 | `brew install pkg-config`            |
 | `coreutils`    | Adds `nproc` and GNU tools               | `brew install coreutils`             |
+| `graphviz`     | Visualization tools                      | `brew install graphviz`              |
 
 ---
 

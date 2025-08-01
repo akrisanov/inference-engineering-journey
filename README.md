@@ -10,7 +10,7 @@ A hands-on learning journey to become a Model Inference / AI Infrastructure Engi
 ## Weekly Progress
 
 - 👉🏻 [Week 1: ML Intro + Setup](notes/week1-ml-intro.md)
-...
+- ...
 
 ## Notebooks
 
@@ -22,4 +22,4 @@ To reproduce my environment, see [setup/environment.md](setup/environment.md)
 
 ---
 
-(C) 2025–2027 [Andrey Krisanov]. All rights reserved.
+(C) 2025–2027 Andrey Krisanov. All rights reserved.

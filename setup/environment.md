@@ -69,6 +69,13 @@ echo 'export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"' >> ~/.zshr
 source ~/.zshrc
 ```
 
+Linux users with no GPU can leverage CPU-only PyTorch installation:
+
+```bash
+uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+uv pip install fastbook
+```
+
 Run the Jupyter Notebook:
 
 ```bash
