@@ -29,7 +29,7 @@ Used by: **PyTorch**, **JAX (by default)**
 - Slightly slower training performance (unless compiled with TorchScript or JIT)
 - Harder to optimize globally across the whole model (because it's not known in advance)
 
-### 🗂️ Static Computational Graph
+## 🗂️ Static Computational Graph
 
 Used by: **TensorFlow 1.x**, **TensorFlow 2.x with `@tf.function`**, **MXNet (hybrid mode)**
 
