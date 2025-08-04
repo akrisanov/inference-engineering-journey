@@ -1,9 +1,4 @@
-# Computational Graphs
-
-A **computational graph** is a way to represent the sequence of operations in a model — like matrix
-multiplications, activations, loss calculations — as a graph of interconnected nodes (operations)
-and edges (data tensors). It enables automatic differentiation, which is essential for training
-neural networks.
+A **computational graph** is a way to represent the sequence of operations in a model — like matrix multiplications, activations, loss calculations — as a graph of interconnected nodes (operations) and edges (data tensors). It enables automatic differentiation, which is essential for training neural networks.
 
 There are two main types of computational graphs:
 
@@ -19,13 +14,11 @@ Used by: **PyTorch**, **JAX (by default)**
 🧠 **Analogy**: Like writing and executing each line of code immediately in a Python REPL.
 
 ✅ Pros:
-
 - Easy to debug (e.g., use `pdb`, print shapes)
 - Flexible for model architectures with dynamic behavior (e.g. RNNs, variable input lengths)
 - Intuitive and beginner-friendly
 
 ❌ Cons:
-
 - Slightly slower training performance (unless compiled with TorchScript or JIT)
 - Harder to optimize globally across the whole model (because it's not known in advance)
 
@@ -40,13 +33,11 @@ Used by: **TensorFlow 1.x**, **TensorFlow 2.x with `@tf.function`**, **MXNet (hy
 🧠 **Analogy**: Like writing a full script, compiling it, then executing all at once.
 
 ✅ Pros:
-
 - More performant for deployment (thanks to optimizations and graph compilation)
 - Easier to export and run across different platforms (e.g., TFLite, XLA)
 - Better suited for embedded/edge environments
 
 ❌ Cons:
-
 - Harder to debug (no immediate feedback)
 - More boilerplate (especially for conditionals, loops, etc.)
 - Steeper learning curve
@@ -63,5 +54,4 @@ Used by: **TensorFlow 1.x**, **TensorFlow 2.x with `@tf.function`**, **MXNet (hy
 
 ---
 
-📌 **Takeaway**: PyTorch’s dynamic graph makes it easier to learn, experiment, and iterate quickly —
-which is why it has become the de facto standard in research.
+📌 **Takeaway**: PyTorch’s dynamic graph makes it easier to learn, experiment, and iterate quickly — which is why it has become the de facto standard in research.
