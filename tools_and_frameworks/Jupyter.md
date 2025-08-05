@@ -1,3 +1,5 @@
+# Jupyter Notebook
+
 > A notebook is a document made of cells. You can write in some of them (markdown cells) or you can perform calculations in Python (code cells) and run them.
 
 ## Modes
