@@ -7,7 +7,7 @@ TensorFlow's popularity has been steadily declining since around 2018–2019, es
 Most modern deep learning researchers and practitioners have adopted PyTorch due to its:
 
 - Pythonic, imperative style
-- [[Computational Graphs#🔄 Dynamic Computational Graph (aka Eager Execution)|Dynamic computation graph]] (eager execution)
+- [Dynamic computation graph](../theory/Computational%20Graphs.md#🔄-dynamic-computational-graph-aka-eager-execution) (eager execution)
 - Cleaner integration with Python debugging tools
 - Growing ecosystem (e.g., Hugging Face, Lightning, fastai)
 

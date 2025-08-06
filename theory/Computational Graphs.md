@@ -60,4 +60,5 @@ Used by: **TensorFlow 1.x**, **TensorFlow 2.x with `@tf.function`**, **MXNet (hy
 
 ---
 
-📌 **Takeaway**: PyTorch’s dynamic graph makes it easier to learn, experiment, and iterate quickly — which is why it has become the de facto standard in research.
+📌 **Takeaway**: PyTorch’s dynamic graph makes it easier to learn, experiment, and iterate quickly —
+which is why it has become the de facto standard in research.

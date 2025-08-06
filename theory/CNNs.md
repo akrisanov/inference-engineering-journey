@@ -1,4 +1,4 @@
-# Convolutional Neural Networks (CNNs)
+# CNNs
 
 ## How CNNs Learn: Step-by-Step
 
@@ -47,8 +47,7 @@ So, learning in a CNN = **learning good filters per layer**.
 
 [Visualizing and Understanding Convolutional Networks](https://arxiv.org/pdf/1311.2901)
 
-![[assets/Screenshot 2025-08-05 21-14-01.png]]
-
+![[assets/Screenshot From 2025-08-05 21-14-01.png]]
 **Left side**: Visualizations of Layer 2 filters after training. Each grid shows what kind of patterns activate a filter (e.g. spirals, arcs, stripes).
 
 **Right side**: Image patches from real data that highly activate specific Layer 2 neurons. These are examples of “what the network pays attention to.”
