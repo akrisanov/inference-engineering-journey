@@ -1,0 +1,48 @@
+What is machine learning?,The process of training programs to learn from experience rather than hardcoding logic.
+What is deep learning?,A subfield of machine learning that uses multi-layered neural networks.
+What is a neural network?,A model composed of layers of mathematical functions trained to approximate complex solutions.
+What is a label in ML?,"The value we're trying to predict, such as 'dog' or 'cat'."
+What is a prediction in ML?,"The output of the model when given input data — a replication of labels, not recommendations."
+What is an architecture?,The template/structure of a model that defines how data flows through its layers.
+What are parameters?,Values in the model (like weights) that are learned during training.
+What is training in ML?,The process of updating parameters to minimize loss on the training set.
+What does 'fit' mean in ML?,To train a model by adjusting weights so predictions match labels.
+What is a pretrained model?,"A model trained on a large dataset, reused and fine-tuned for another task."
+What is fine-tuning?,The process of adapting a pretrained model to a specific task by training its head.
+What is the head of a model?,The final layers added to a pretrained model to make it suitable for a new task.
+What is transfer learning?,Reusing a pretrained model's knowledge for a different but related task.
+What is a training set?,The data used to train the model by updating weights.
+What is a validation set?,"Data excluded from training, used to evaluate generalization and tune hyperparameters."
+What is a test set?,"Data held back completely, used only once for final evaluation of generalization."
+Why do we need a test set?,To simulate real-world unseen data and prevent overfitting to the validation set.
+When should we not use random splits for validation?,"For time series or datasets with overlapping subjects (e.g., people in images)."
+Why is using a test set too early a mistake?,It leads to overfitting by making decisions based on the test results.
+What is overfitting?,When a model memorizes training data instead of learning patterns that generalize.
+How can validation set leakage cause overfitting?,"If validation data ends up in training, the model may memorize it."
+How to avoid overfitting during development?,"Use a test set only once, and monitor performance on a clean validation set."
+What are hyperparameters?,"Settings like learning rate, batch size, and number of epochs that are not learned from data."
+Name 3 examples of hyperparameters.,"Learning rate, dropout rate, number of epochs."
+What is weight decay?,A regularization technique to prevent overfitting by penalizing large weights.
+What is the purpose of the optimizer?,To update model weights during training to minimize loss.
+What features do early CNN layers learn?,"Edges, textures, simple patterns."
+What features do deeper CNN layers learn?,High-level features like object parts and full objects.
+What are CNN filters (kernels)?,Learnable patterns that detect features in images at each layer.
+What is the learning process in a CNN?,Optimizing filter weights to detect useful patterns via backpropagation.
+What is a loss function?,A function used to calculate how wrong predictions are — used for training.
+What is a metric?,"A human-readable measure (e.g., accuracy) for evaluating model performance."
+How does loss differ from metric?,Loss guides training updates; metrics are for interpretation and reporting.
+What is a computational graph?,A structure representing operations and data flow; enables automatic differentiation.
+What is dynamic graph execution?,Building the graph on the fly (used in PyTorch); intuitive and flexible.
+What is static graph execution?,Defining the graph in advance (used in TensorFlow); more optimized but less flexible.
+What is a feedback loop in ML?,"When a model’s predictions influence future data, reinforcing its own biases."
+Give an example of a feedback loop in practice.,Predictive policing → more police in one area → more crime reports → loop.
+How can feedback loops be dangerous?,They can entrench biases and distort reality based on model predictions.
+Name 3 deep learning applications in NLP.,"Question answering, document classification, speech recognition."
+Name 3 deep learning applications in CV.,"Object detection, face recognition, interpreting drone imagery."
+Name 2 deep learning applications in medicine.,"Tumor detection from scans, diabetic retinopathy diagnosis."
+What is one DL application in biology?,"Protein folding (e.g., AlphaFold)."
+What are recommendation systems used for?,"Product recommendations, search ranking, homepage personalization."
+What is the Universal Approximation Theorem?,A neural network can approximate any function to any accuracy.
+What is a GPU and why is it important?,A processor for parallel calculations — ideal for training neural nets.
+Why can't we write a traditional program to detect cats?,Too many variations — hard to hardcode all possible patterns.
+What’s the best way to avoid failure in AI projects?,"Use a baseline and keep a clean, hidden test set."
