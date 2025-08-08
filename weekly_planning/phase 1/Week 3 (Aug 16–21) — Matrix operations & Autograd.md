@@ -1,5 +1,3 @@
-# Week 3 (Aug 15–21) — Matrix operations & Autograd
-
 ## Focus
 
 Matrix inversion, dot products, PyTorch autograd.

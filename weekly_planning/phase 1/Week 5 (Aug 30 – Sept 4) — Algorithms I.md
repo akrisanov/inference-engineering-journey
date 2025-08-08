@@ -1,5 +1,3 @@
-# Week 5 (Aug 29 – Sept 4) — Algorithms I
-
 ## Focus
 
 Learn sorting, time complexity.

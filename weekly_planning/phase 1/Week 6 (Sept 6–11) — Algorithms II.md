@@ -1,5 +1,3 @@
-# Week 6 (Sept 5–11) — Algorithms II
-
 ## Focus
 
 Binary search, hash maps.

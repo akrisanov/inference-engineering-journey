@@ -1,5 +1,3 @@
-# Week 4 (Aug 22–28) — Gradient Descent
-
 ## Focus
 
 Understand and implement gradient descent.

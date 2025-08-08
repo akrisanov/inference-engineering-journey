@@ -1,5 +1,3 @@
-# Week 8 (Sept 19–25) — Inference API Project
-
 **Focus:** Build a deployable inference service
 
 ## Tasks

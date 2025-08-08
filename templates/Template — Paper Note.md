@@ -6,10 +6,13 @@
 - 📝 Summary:
 
 ## Key Ideas
+
 - ...
 
 ## My Thoughts
+
 - ...
 
 ## Related Topics
+
 - [[ ]]

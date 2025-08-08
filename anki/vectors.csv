@@ -1,0 +1,12 @@
+Front,Back
+What is a vector in linear algebra?,An ordered list of numbers that represents a quantity with both magnitude and direction.
+What is a vector in computer science (in the context of ML)?,"An ordered list of numbers, often representing features of a data point."
+What is the geometric interpretation of a vector?,A directed arrow from the origin to a point in space.
+How does vector addition work geometrically?,By placing the tail of the second vector at the head of the first and drawing a new vector from the origin to the end point.
+What happens when you multiply a vector by a scalar greater than 1?,"The vector’s length increases, but its direction stays the same."
+What happens when you multiply a vector by a scalar between 0 and 1?,"The vector’s length decreases, but its direction stays the same."
+What happens when you multiply a vector by a negative scalar?,The vector’s length changes and its direction reverses.
+How can vectors be used in machine learning?,They can represent feature sets for data points.
+How do you calculate the length (magnitude) of a vector?,By taking the square root of the sum of the squares of its components.
+What’s the difference between scalar multiplication and the dot product?,Scalar multiplication multiplies each vector component by the scalar; the dot product multiplies corresponding components of two vectors and sums the results.
+Why are vectors important in deep learning?,They are the basic building blocks for representing and processing data in models.

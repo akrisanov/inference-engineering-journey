@@ -1,5 +1,3 @@
-# Week 7 (Sept 12–18) — HuggingFace & GPT2
-
 ## Focus
 
 Build your first inference pipeline.

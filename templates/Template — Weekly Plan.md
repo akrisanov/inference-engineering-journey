@@ -1,13 +1,17 @@
 # Weekly Plan — <% tp.date.now("YYYY-MM-DD") %>
 
 ## 🎯 Focus Areas
+
 - ...
 
 ## 📚 Learning Topics
+
 - ...
 
 ## 🧪 Experiments to Run
+
 - ...
 
 ## ✅ Top 3 Goals
+
 - [ ] ...
