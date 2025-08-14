@@ -1,0 +1,19 @@
+What does it mean for vectors to be linearly dependent?,At least one vector can be written as a linear combination of the others.
+What does it mean for vectors to be linearly independent?,None of the vectors in the set can be written as a linear combination of the others.
+What is the geometric interpretation of linearly dependent vectors in 2D?,They lie on the same line (are colinear).
+What is the geometric interpretation of linearly independent vectors in 2D?,They span the plane — each adds a unique direction.
+How can we computationally check for linear independence using PyTorch?,By stacking vectors into a matrix and comparing the matrix rank with the number of vectors.
+What does matrix rank represent in this context?,The number of linearly independent vectors — the dimension of the space they span.
+What is the condition for linear dependence using the zero vector?,A set is linearly dependent if c₁v₁ + c₂v₂ + ... + cₙvₙ = 0 has a nontrivial solution (not all cᵢ = 0).
+What does it mean when the rank of a matrix formed by vectors is less than the number of vectors?,The vectors are linearly dependent — some are redundant.
+Why does a set of 3 vectors in ℝ² have to be linearly dependent?,Because at most 2 vectors can span ℝ²; the third must be a combination of the first two.
+Why is linear independence important when defining a basis?,Because a basis must consist of vectors that uniquely span the space — no vector should be redundant.
+What is the relationship between matrix rank and basis?,The rank gives the number of independent vectors — the size of the largest basis you can form from the set.
+"Are the vectors [2,3] and [4,6] linearly dependent or independent?",Dependent — they are colinear and one is a multiple of the other.
+"Are the vectors [7,0] and [0,-1] linearly dependent or independent?",Independent — they point in orthogonal directions.
+"Why is [1,2] redundant in the set {[2,1], [3,2], [1,2]}?",It can be written as a linear combination of the other two vectors — the set is dependent.
+How do we determine whether a set of vectors spans ℝ³?,"Check if any vector in ℝ³ can be written as a combination of the vectors — i.e., solve the system of equations."
+What does it mean when a set of 3 vectors in ℝ³ has a nonzero solution to c₁v₁ + c₂v₂ + c₃v₃ = 0?,The vectors are linearly dependent — some are redundant.
+What does it mean when the only solution to c₁v₁ + c₂v₂ + c₃v₃ = 0 is c₁ = c₂ = c₃ = 0?,The vectors are linearly independent — no redundancy.
+Why is linear independence important in deep learning?,Independent features carry unique information and help avoid redundancy and numerical instability.
+What is the connection between linear independence and feature selection?,Independent features contribute new information — dependent ones may be redundant or correlated.
