@@ -1,0 +1,21 @@
+What are the 3 conditions for a subset V of ℝⁿ to be a subspace?,"1. Contains the zero vector
+2. Closed under scalar multiplication
+3. Closed under addition"
+Why must a subspace contain the zero vector?,Because the zero vector is required for the structure to be closed under addition and scalar multiplication.
+What does 'closed under scalar multiplication' mean for a subspace?,"If a vector is in the set, any scalar multiple of that vector must also be in the set."
+What does 'closed under addition' mean for a subspace?,The sum of any two vectors in the set must also be in the set.
+Is the set {0} a valid subspace of ℝ³?,"Yes. It contains the zero vector, and is closed under both scalar multiplication and addition."
+What is the span of a set of vectors?,All possible linear combinations of those vectors.
+Why is the span of any set of vectors a valid subspace?,Because it contains the zero vector and is closed under both addition and scalar multiplication.
+What is the smallest possible subspace of ℝⁿ?,"The zero vector alone, {0}."
+What is a basis of a subspace?,A set of linearly independent vectors that spans the subspace.
+"What happens if you add a vector like v₁ + v₂ to a basis set {v₁, v₂}?",It becomes linearly dependent and is no longer a basis.
+Why must a basis contain only linearly independent vectors?,So that each vector adds a new dimension to the span.
+Why is the basis the minimal set of vectors that span a space?,Because removing any vector breaks the ability to span the subspace.
+How does the number of vectors in a basis relate to the dimension of the subspace?,They are equal — the number of basis vectors defines the dimension.
+What does matrix rank tell us about a set of vectors?,"The number of linearly independent vectors — i.e., the dimension of their span."
+How can you compute the dimension of a span using PyTorch?,Use torch.linalg.matrix_rank() on a stacked matrix of the vectors.
+What is a simple algorithm to extract a basis from a set of vectors?,Iteratively add vectors if they increase the rank of the set.
+Why does v₃ not add dimension to the span of v₁ and v₂ in ℝ³ if it lies in the same plane?,"Because it can be written as a linear combination of v₁ and v₂, so it’s not independent."
+How does a basis improve model expressiveness or stability in deep learning?,A basis removes redundant features and keeps only the independent components of the data.
+Why do we care about the dimension of a subspace?,It tells us how many independent directions the space has — its 'degrees of freedom'.
